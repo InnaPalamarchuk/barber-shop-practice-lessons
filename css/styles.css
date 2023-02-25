@@ -1,0 +1,90 @@
+body{
+    background-color: #FFFFFF;
+}
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+/* потім видалити з хедера-додала для кольору фону */
+.header{
+    background-color: rgb(108, 100, 104);
+}
+
+
+/* header */
+.link-color{
+    color: #FFFFFF;
+}
+.link-color:hover,:focus{
+    color: #FF6C00;
+}
+.btn-dominant{
+    color: #FFFFFF;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn-dominant:hover,:focus{
+    background-color: #FF6C00;
+}
+
+/* sidebar */
+.socials-link{
+    color: #303030; 
+}
+.socials-link:hover,:focus{
+    color: #FF6C00;
+}
+
+/* видалити колір з херо-секції */
+.hero-section{
+    background-color: #89ccc5;
+}
+/* section-hero */
+.tagline{
+    color: rgba(157, 164, 189, 0.6);
+}
+.hero-title{
+    color: #FFFFFF;
+}
+.hero-text{
+    color: #9DA4BD;
+}
+.btn-hero{
+    color: #FFFFFF;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+}
+.btn-hero:hover,:focus{
+    color: rgba(157, 164, 189, 0.6);
+    border-bottom: 2px solid  rgba(157, 164, 189, 0.6);
+}
+
+/* about-us */
+.about-us{
+    color: #303030;
+}
+.subtitle{
+    color: #303030;
+}
+.about-text{
+    color: #555555;
+}
+.about-us-text{
+    color: #555555;
+}
+.btn-action{
+    color: #303030;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.btn-action:hover,:focus{
+    color: #FFFFFF;
+    background-color: #FF6C00;
+}
+/* Услуги и цены */
